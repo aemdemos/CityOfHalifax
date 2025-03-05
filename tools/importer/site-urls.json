@@ -1,0 +1,20 @@
+{
+  "originUrl": "https://halifax.ca",
+  "urls": [],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "SITEMAPS",
+    "logger": {}
+  },
+  "extractionErrors": [
+    {
+      "url": "https://halifax.ca/sitemap.xml",
+      "status": "parseSitemapFromUrl (https://halifax.ca/sitemap.xml): Failed to fetch or parse the sitemap. Failed to fetch the sitemap. Status: 404"
+    }
+  ]
+}
